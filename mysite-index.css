@@ -1,0 +1,354 @@
+.head-info  {
+
+    position: left;
+    display:inline-block;
+    flex-shrink:initial;
+    width: 100%;
+    align-items:justified;
+    background-color:rgb(239, 218, 237);
+    color: rgb(2, 49, 2);
+    text-decoration-color: none;
+    outline: none;
+    
+}
+
+
+.HeaderContainer {
+
+    position: fixed;
+    top: 0px;
+    max-height: 8%;
+    width: 100%;
+    flex-flow: wrap;
+    background-color: rgb(239, 218, 237);
+    border-bottom: 1px, rgb(2, 49, 2) solid;
+    margin-bottom: 0px;
+    padding-bottom: 1%;
+    font: Della Respira;
+    outline: none;
+
+
+
+
+    .head-nav {
+        position: inline-end;
+        display: inline-flex;
+        align-items: center;
+        color: rgb(2, 49, 2);
+        text-decoration-color: none;
+        outline: none;
+
+
+        .head-nav a:active,
+        .head-nav a:hover {
+
+            color: orange;
+
+        }
+    }
+
+
+
+}
+
+
+.OuterContainer {
+    display: block;
+    background-color: bisque;
+    width: 100%;
+    border: 1px black solid;
+
+   
+}
+
+
+
+.AboutMe-img {
+    display: inline-flexbox;
+    margin-top: 15%;
+    margin-left: 25px;
+    padding-top: 15%;
+    height: 50%;
+    width: 35%;
+    border-radius: 150px;
+    border-color: antiquewhite;
+
+}
+
+
+
+.InnerContainer {
+
+    display: inline-flexbox;
+    z-index: 2;
+    flex-direction: column;
+    flex-flow: row;
+    column-count: 1;
+    column-gap: 10px;
+    background-color: lightgrey;
+    margin-left: 5%;
+    padding-left: 5%;
+    margin-right: 5%;
+    padding-right: 5%;
+    margin-bottom: 10%;
+    width: 85%;
+    align-items: justify;
+
+}
+
+#port-butt {
+
+    background-color: tomato;
+    color: white;
+    border: black;
+    outline: none;
+    cursor: pointer;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding: 45px;
+    border-radius: 400px;
+    font-size: 30px;
+    font: Della Respira;
+
+}
+
+#cv-butt {
+
+
+    background-color: olive;
+    color: white;
+    border: black;
+    outline: none;
+    cursor: pointer;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding: 45px;
+    border-radius: 400px;
+    font-size: 30px;
+    font: Della Respira;
+
+}
+
+.InnerContainer-2 {
+
+        display: inline-flexbox;
+        flex-direction: row;
+        column-count: 2;
+        column-gap: 10px;
+        align-items: justify;
+        background-color: lightgrey;
+        margin-left: 25px;
+        margin-right: 50px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding-bottom: 15%;
+        padding-left: 5%;
+        padding-right: 5%;
+        margin-bottom: 10%;
+        height: 150px;
+        width: 85%;
+        align-items: justify;
+
+}
+        
+
+
+
+.contactContainer {
+    display: inline-flex;
+    z-index: 2;
+    flex-direction: column;
+    flex-flow: column; 
+    column-count: 1;
+    border-radius: 4px;
+    font-weight: 1000;
+    background-color: goldenrod;
+    width: 450px;
+    padding: 35px;
+    margin: 15px;
+
+    .row {
+
+
+
+        #fname,
+        #lname,
+        #message {
+            min-height: 20px;
+            width: 450px;
+            margin-left: 15px;
+            padding: 15px;
+
+        }
+    }
+
+    .contact-textarea {
+
+        #fname,
+        #lname {
+            min-height: 20px;
+            width: 450px;
+            margin-left: 15px;
+            padding: 10px;
+
+        }
+
+        #message {
+            height: 200px;
+            width: 700px;
+            margin-left: 15px;
+            padding: 25px;
+
+
+        }
+    }
+
+    .contact-butt {
+        color: lightcoral;
+        display: inline-block;
+        width: 130px;
+        text-align: right;
+        padding-right: 15px;
+    }
+}
+
+
+.port-p-head {
+
+    font-size: 16px;
+    font: Della Respira;
+    font-weight: bold;
+    line-height: 16px;
+    margin-left: -5%;
+}
+
+.port-p {
+
+    display: flex;
+    z-index: 2;
+    flex-flow: column;
+    background-color: lightgrey;
+    font: 12px;
+    font: Della Respira;
+    line-height: 12px;
+    margin-left: -13%;
+    margin-right: 0%;
+    margin-bottom: 20%;
+}
+
+.port-ul {
+    display: inline-flex;
+    flex-flow: column wrap;
+    list-style-type: none;
+    background-color: lightcyan;
+    margin-top: 5%;
+    margin-left: -13%;
+    margin-right: 0%;
+    margin-bottom: 20%;
+    font: Della Respira;
+    font-weight: 100px;
+    font-size: 12px;
+    font: Della Respira;
+    line-height: 20px;
+    margin-left: -13%;
+
+}
+
+.port-img {
+
+    position: right;
+    height: 150px;
+    width: 250px;
+    padding-top: 10px;
+    margin-left: 40%;
+
+}
+
+
+.cv-p {
+
+    display: flex;
+    flex-flow: column;
+    background-color: lightgrey;
+    font: 12px;
+    font: Della Respira;
+    line-height: 12px;
+    margin-left: -13%;
+    margin-right: 0%;
+    margin-bottom: 20%;
+}
+
+.cv-ul {
+    display: inline-flex;
+    flex-flow: column wrap;
+    list-style-type: none;
+    background-color: lightcyan;
+    margin-top: 5%;
+    margin-left: -13%;
+    margin-right: 0%;
+    margin-bottom: 20%;
+    font: Della Respira;
+    font-weight: 100px;
+    font-size: 12px;
+    font: Della Respira;
+    line-height: 20px;
+    margin-left: -13%;
+
+}
+
+.cv-img {
+
+    position: right;
+    height: 150px;
+    width: 250px;
+    padding-top: 10px;
+    margin-left: 40%;
+
+      }
+
+
+
+#bot-butt {
+    bottom: 0;  
+    z-index: 99;
+    margin-left: 85%;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    border: 2px, black, solid;
+    background-color: lightseagreen;
+    color: black;
+    outline: none;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 15px;
+
+
+
+}
+
+
+
+    .footContainer {
+
+        position: fixed;
+        bottom: 0;
+        text-align: left;
+        bottom: 0px;
+        width: 100%;
+        max-height: fit-content;
+        background-color: rgb(239, 218, 237);
+        border-top: 1px, rgb(2, 49, 2) solid;
+        margin-top: 10px;
+        padding-top: 5px;
+        font-size: 12px;
+
+
+
+
+        
+    }
