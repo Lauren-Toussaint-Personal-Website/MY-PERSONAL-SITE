@@ -1,2 +1,13 @@
-const str1= "Welcome to my site. I hope you find some interesting facts and information about me. Please let me know if you have further questions or wish to collaborate by contacting me. My contact information is listed below or you may complete a contact form available on the 'CONTACT' tab.";
-alert(`${str1}`)
+const dinner = {cheeseburger: 12,
+steak: 20,
+soup: 8,
+macAndCheese: 14,
+soupAndSalad: 16,
+};
+console.log(Object.keys(dinner));
+console.log(Object.values(dinner));
+//for (const property in dinner);
+let total=0;
+for (const property in dinner){
+    total += dinner[property];}
+    console.log(total);
