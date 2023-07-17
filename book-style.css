@@ -1,0 +1,173 @@
+html {
+  --s: 100px; /* control the size */
+  --c1: #F8B195;
+  --c2: #355C7D;
+  
+  --_g: 
+     var(--c2) 6%  14%,var(--c1) 16% 24%,var(--c2) 26% 34%,var(--c1) 36% 44%,
+     var(--c2) 46% 54%,var(--c1) 56% 64%,var(--c2) 66% 74%,var(--c1) 76% 84%,var(--c2) 86% 94%;
+  background:
+    radial-gradient(100% 100% at 100% 0,var(--c1) 4%,var(--_g),#0008 96%,#0000),
+    radial-gradient(100% 100% at 0 100%,#0000, #0008 4%,var(--_g),var(--c1) 96%)
+    var(--c1);
+  background-size: var(--s) var(--s);
+}
+
+
+body {
+  display: grid;
+  align-items: center;
+   color: #80d3f285;
+   font: 'Times New Roman';
+   font-size: 20px;
+     
+}
+
+table   {
+  display: flexbox;
+  align-items: center;
+  width: 100%;
+  column-count: 2;
+  margin-left: 7px;
+  margin-right: 7px;
+  border-radius: 15%;
+  padding: 3%;
+  border-color: rgb(7, 102, 143);
+  background-color: rgb(220, 146, 138);
+  border: 5px;
+  color: black;
+  font-size: 14pt;
+
+}
+
+
+
+
+
+
+
+.HeaderContainer {
+    display: grid;
+    align-items: center;
+    color: rgb(193, 234, 251);
+    
+
+}
+
+h4 {
+  color:rgb(7, 102, 143);
+  background-color: antiquewhite;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  border: 5px;
+  border-radius: 25%;
+  padding: 2%;
+}
+
+h3 {
+  color: rgb(7, 102, 143);
+  background-color: rgb(215, 250, 249);
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  border: 5px;
+  border-radius: 25%;
+  margin: 3%;
+  padding: 2%;
+
+}
+
+h1 {
+  color: rgb(7, 102, 143);
+  background-color: aqua;
+  border-radius: 20%;
+  text-align: center;
+  font-family: cursive;
+}
+
+h2 {
+  color: rgba(228, 45, 161, 0.522);
+  background-color: antiquewhite;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+            
+            }
+
+
+.book-img  {
+
+  align-items: center;
+  width: 200px;
+  height: 300px;
+ }
+
+
+.OuterContainer {
+  
+  display: grid;
+  align-items: center;
+  border: 5px;
+  border-radius: 25%;
+
+}
+
+
+.InnerContainer {
+  display: flexbox;
+  align-items: center;
+  border: 5px;
+  border-radius: 25%;
+ 
+}
+
+
+.top-butt {
+    
+    
+  position: fixed;
+  bottom: 3%;
+  z-index: 99;
+  height: 50px;
+  width: 50px;
+  margin-right: 5%;
+  display: float;
+  background-color: lawngreen;
+  font-weight: bold;
+  color: antiquewhite;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 50%;
+  font: 'Times New Roman';
+  font-size: small;
+  margin-left: 5%;
+}
+
+.footContainer {
+
+  position: fixed;
+  bottom: 0;
+  text-align: justify;
+  bottom: 0px;
+  width: 100%;
+  max-height: fit-content; 
+  border-top: 1px, rgb(2, 64, 2) solid;
+  margin-top: 10px;
+  padding-top: 5px;
+  font-size: 14px;
+  color:black;
+  background-color: 75%#f1beaa;
+
+footer {
+  .foot-sec {
+
+  color: black;
+}}}
+
+
+
+p {
+
+  color: black;
+}
+
+
+/*# sourceMappingURL=book-style.css.map */

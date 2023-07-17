@@ -1,0 +1,53 @@
+
+
+$Small-text-color: #80d3f285;
+$Font: 'Times New Roman';
+$Text-size: 20px;
+$display: grid; 
+
+
+
+
+
+
+    
+
+    
+
+
+
+
+
+body {
+    display:grid;
+    align-items: center;
+}
+
+.OuterContainer  {
+
+    display:grid;
+    align-items: center;
+
+} 
+
+
+
+
+
+
+
+h1 {
+    color: $Header-color;
+    text-align: center;
+    font-family:cursive;
+    
+    // text-size-adjust: $Text-size;
+}
+
+h2 {
+    color: $Small-text-color;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
