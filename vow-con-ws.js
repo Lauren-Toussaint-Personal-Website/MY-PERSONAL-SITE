@@ -11,12 +11,7 @@ for (let i = 0; i < word1.length; i++) {
     
 }
 
-
-console.log(counter)
-console.log(word1.length)
-console.log(word1.length - counter)
-console.log(text1 = "'Hello' contains " + counter + "vowels and" + (word1.length - counter) + "consonants.";
-)
+console.log(`'Hello' contains ${counter} vowels and ${word1.length-counter} consonants.`);
 
 
 
@@ -26,14 +21,10 @@ let text2=""
 for (let i = 0; i < word2.length; i++) {
   if (word2[i] === "a" || word2[i] === "e" || word2[i] === "i" || word2[i] === "o" || word2[i] === "u") {
     counter2++;
-    text2 = "'Onomonopia' contains " + counter2 + "vowels and" + word2.length - counter2 + "consonants.";
-
+    
   }
 }
-
-console.log(counter2)
-console.log(word2.length)
-console.log(word2.length - counter2)
+console.log(`'Onomonopia' contains ${counter2} vowels and ${word2.length-counter2} consonants.`);
 
 
 
@@ -45,14 +36,10 @@ for (let i = 0; i < word3.length; i++) {
   if (word3[i] === "a" || word3[i] === "e" || word3[i] === "i" || word3[i] === "o" || word3[i] === "u") {
     counter3++;
 
-    text3 = "'Textbook' contains " + counter3 + "vowels and" + word3.length - counter3 + "consonants.";
-
+    
   }
 }
-
-console.log(counter3)
-console.log(word3.length)
-console.log(word3.length - counter3)
+console.log(`'Textbook' contains ${counter3} vowels and ${word3.length-counter3} consonants.`);
 
 
 
@@ -63,14 +50,11 @@ for (let i = 0; i < word4.length; i++) {
   if (word4[i] === "a" || word4[i] === "e" || word4[i] === "i" || word4[i] === "o" || word4[i] === "u") {
     counter4++;
 
-    text4 = "'Ukelele' contains " + counter4 + "vowels and" + word4.length - counter4 + "consonants.";
-
+    
   }
 }
+console.log(`'Ukelele' contains ${counter4} vowels and ${word4.length-counter4} consonants.`);
 
-console.log(counter4)
-console.log(word4.length)
-console.log(word4.length - counter4)
 
 
 const word5 = "awesome"
@@ -81,19 +65,17 @@ for (let i = 0; i < word5.length; i++) {
   if (word5[i] === "a" || word5[i] === "e" || word5[i] === "i" || word5[i] === "o" || word5[i] === "u") {
     counter5++;
 
-    text5 = "'Awesome' contains " + counter5 + "vowels and" + word5.length - counter5 + "consonants."
-
+    
   }
 }
 
-console.log(counter5)
-console.log(word5.length)
-console.log(word5.length - counter5)
+console.log(`'Awesome' contains ${counter5} vowels and ${word5.length-counter5} consonants.`);
+
 
 
 
   
-const a = [1,2,3,4,5];
+const array = [1,2,3,4,5];
 
 {
 
@@ -101,3 +83,4 @@ const a = [1,2,3,4,5];
     [array[i], array[j]] = [array[j], array[i]];
 }
 
+console.log(array)

@@ -1,16 +1,15 @@
-function createArray(N36) {
+function createArray(FZ) {
 
-    let newArr36 = []
-    for (let i = 1; i <= N36; i++) {
+    let newArrayFZ = [];
 
-        newArr36.push(i);
+    for (let i = 1; i <= FZ; i++) {
+
+        newArrayFZ.push(i);
     }
-    return newArr36;
+
+    return newArrayFZ;
 }
 
-
-let N36 = 101;
-let arr36 = createArray(N36);
-console.log(arr36);
-
-
+let FZ = 100;
+let arr = createArray(FZ);
+console.log(arr);
