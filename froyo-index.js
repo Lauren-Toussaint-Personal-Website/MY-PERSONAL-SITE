@@ -1,4 +1,4 @@
-// Workshop - Block15
+// Guided Practice - Block15
 //const dinner = {cheeseburger: 12,
 //steak: 20,
 //soup: 8,
@@ -12,6 +12,8 @@
 //for (const property in dinner){
 //    total += dinner[property];}
 //    console.log(total);
+
+
 // Workshop - Block15
 // keys	values
 // firstName	"jake"
